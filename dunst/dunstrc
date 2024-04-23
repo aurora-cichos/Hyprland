@@ -1,0 +1,33 @@
+[global]
+frame_color = "#89B4FA95"
+separator_color= frame
+
+width = 220
+height = 280
+offset = 0x15
+origin = top-center
+
+font = monospace 8
+
+corner_radius = 4
+
+mouse_left_click = close_current
+mouse_right_click = close_all
+
+ellipsize = middle
+padding = 10
+frame_width = 1
+transparency = 10
+
+[urgency_low]
+background = "#1E1E2E83"
+foreground = "#CDD6F4"
+
+[urgency_normal]
+background = "#1E1E2E83"
+foreground = "#CDD6F4"
+
+[urgency_critical]
+background = "#1E1E2E83"
+foreground = "#CDD6F4"
+frame_color = "#FAB38780"

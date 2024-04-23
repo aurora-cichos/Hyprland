@@ -1,0 +1,57 @@
+@import "mocha.css";
+
+@define-color bg @base;
+@define-color fg @text;
+@define-color accent @red;
+
+* {
+    border: none;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#workspaces {
+    border-color: @accent;
+    margin-left: 20px;
+    background: @bg;
+}
+#workspaces button {
+    padding: 0 7px;
+    background: transparent;
+    color: @fg;
+}
+#workspaces button.active {
+    color: @accent;
+}
+
+#clock {
+    padding: 0 7px;
+    background: @bg;
+    color: @accent;
+}
+
+#tray {
+    border-radius: 4px 0 0 4px;
+    padding: 0 7px;
+    background: @bg;
+    color: @accent;
+}
+#wireplumber {
+    border-radius: 0;
+    padding: 0 7px;
+    background: @bg;
+    color: @accent;
+}
+#battery {
+    border-radius: 0 4px 4px 0;
+    margin-right: 20px;
+    padding: 0 14px 0 7px;
+    background: @bg;
+    color: @accent;
+}
